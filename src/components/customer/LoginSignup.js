@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function Modal({ isOpen, onClose }) {
@@ -34,6 +35,11 @@ export default function Modal({ isOpen, onClose }) {
             <button className="bg-red-500 text-white px-4 py-2 rounded">Google</button>
             <button className="bg-black text-white px-4 py-2 rounded">Apple</button>
           </div>
+        </div>
+        <div className=' text-center mt-4 text-sm'>
+          <Link href="/seller">          Are you A seller? login 
+          </Link>
+
         </div>
       </div>
     </div>
