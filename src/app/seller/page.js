@@ -15,10 +15,10 @@ const SellerDashboard = () => {
 
         {/* View Orders */}
         <section id="view-orders" className="py-20 px-8 lg:px-32">
-          <h2 className="text-3xl font-bold mb-6">View Orders</h2>
-          <table className="w-full border-collapse">
+          <h2 className="text-3xl font-bold mb-6 text-brown">View Orders</h2>
+          <table className="w-full border-collapse border-brown border-2">
             <thead>
-              <tr className="bg-gray-200">
+              <tr className="bg-brown text-white">
                 <th className="border px-4 py-2">Order ID</th>
                 <th className="border px-4 py-2">Customer Name</th>
                 <th className="border px-4 py-2">Product</th>

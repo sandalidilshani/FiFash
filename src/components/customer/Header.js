@@ -14,6 +14,7 @@ export default function Header  () {
     setisLoginSignUp(false)
     console.log('close')
   }
+  
   return(
     <>
   <header className="w-full px-8 lg:px-32 pt-10 flex justify-between bg-pink text-brown flex-wrap items-center">
